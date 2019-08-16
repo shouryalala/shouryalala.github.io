@@ -3,8 +3,31 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>This is Shourya</title>
+    <title>This Shourya</title>
     <style>
+       @keyframes fadeIn {
+        0% {
+        opacity:0;
+      }
+      45% {
+      opacity:0;
+      }
+      55% {
+      opacity:1;
+      }
+      100% {
+      opacity:1;
+      }
+      }
+
+      /* #cf3 img.top {
+      animation-name: cf3FadeInOut;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-duration: 8s;
+      animation-direction: alternate;
+      } */
+
       html, body{
         height: 100%;
         width:100%;
@@ -12,13 +35,21 @@
         background-image: url("http://shouryalala.com/images/banner.png");
         background-repeat: no-repeat;
         background-size:contain;
-        background-position: center;        	
+        background-position: center;
+        -webkit-animation-name: fadeIn;
+        -webkit-animation-duration: 8s;
+        -webkit-animation-timing-function: ease-in-out;
+        -webkit-animation-iteration-count: 1;
+        -moz-animation-name: fadeIn;
+        -moz-animation-duration: 8s;
+        -moz-animation-timing-function: ease-in-out;
+        -moz-animation-iteration-count: 1;
       }
 
       .fa {
-        padding: 20px;
-        font-size: 30px;
-        width: 30px;
+        padding: 15px;
+        font-size: 24px;
+        width: 24px;
         text-align: center;
         text-decoration: none;
         margin: 5px 2px;
@@ -54,7 +85,7 @@
   </head>
  	<body>
      <div class="topright">
-      <a href="https://twitter.com/shouryalala" class="fa fa-twitter"></a>&nbsp;&nbsp;<a href="https://in.pinterest.com/shouryaditya/" class="fa fa-pinterest"></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/shouryalala/" class="fa fa-linkedin"></a>
+      <a href="https://twitter.com/shouryalala" class="fa fa-twitter" target="_blank"></a>&nbsp;<a href="https://www.linkedin.com/in/shouryalala/" class="fa fa-linkedin"  target="_blank">&nbsp;</a><a href="https://in.pinterest.com/shouryaditya/" class="fa fa-pinterest"  target="_blank"></a>
     </div> 		
  	</body>
  </html>
