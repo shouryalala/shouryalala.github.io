@@ -38,6 +38,12 @@
         background-repeat: no-repeat;
         background-size:contain;
         background-position: center;              
+
+        opacity: 0;
+      }
+
+      body.visible {
+        opacity: 1;
       }
 
       .fa {
@@ -80,5 +86,12 @@
      <div class="topright">
       <a href="https://twitter.com/shouryalala" class="fa fa-twitter" target="_blank"></a>&nbsp;<a href="https://www.linkedin.com/in/shouryalala/" class="fa fa-linkedin"  target="_blank">&nbsp;</a><a href="https://in.pinterest.com/shouryaditya/" class="fa fa-pinterest"  target="_blank"></a>
     </div> 		
+    <script>
+      $(document).ready(function() {
+        $('body').on('webkitAnimationEnd', function(e) {
+          $(this).addClass('visible');
+        });
+      });
+    </script>
  	</body>
  </html>
