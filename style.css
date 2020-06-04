@@ -422,13 +422,26 @@ input:-webkit-autofill:focus {
 
 /*-- 7. Home-Area --*/
 
-.home-area {
-    width: 100%;
-    background: url('images/header-bg.jpg') no-repeat scroll center bottom / cover;
-    padding-top: 26vh;
-    color: #ffffff;
-    margin-bottom: 100px;
-}
+@media screen and (min-width: 200px) {      
+    .home-area {
+        width: 100%;
+        background: url('images/header-bg-0.jpg') no-repeat scroll center bottom / cover;
+        padding-top: 26vh;
+        color: #ffffff;
+        margin-bottom: 100px;
+    }
+} 
+
+@media screen and (min-width: 1092px) {      
+    .home-area {
+        width: 100%;
+        background: url('images/header-bg.png') no-repeat scroll center bottom / cover;
+        padding-top: 26vh;
+        color: #ffffff;
+        margin-bottom: 100px;
+    }
+} 
+
 
 .home-area .mobile-image {
     margin-right: 0;
