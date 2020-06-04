@@ -731,7 +731,7 @@ input:-webkit-autofill:focus {
     background-image: url('images/download-bg.png');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: cover;    
     margin-top: 70px;
     margin-bottom: 100px;
     color: #ffffff;
@@ -862,7 +862,7 @@ input:-webkit-autofill:focus {
 /*-- 16. Questions-area --*/
 
 .questions-area {
-    background-color: #f5f6ff;
+    background-color: #ffffff;
 }
 
 .toggole-boxs {
