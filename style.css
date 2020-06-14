@@ -425,7 +425,7 @@ input:-webkit-autofill:focus {
 @media screen and (min-width: 200px) {      
     .home-area {
         width: 100%;
-        background: url('images/header-bg-0.jpg') no-repeat scroll center bottom / cover;
+        background: url('images/header-bg-mobile.png') no-repeat scroll center bottom / cover;
         padding-top: 26vh;
         color: #ffffff;
         margin-bottom: 100px;
@@ -612,16 +612,30 @@ input:-webkit-autofill:focus {
 
 .team-box .team-image {
     position: absolute;
-    top: -40px;
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
+    top: -50px;
+    width: 180px;
+    height: 180px;
+    border-radius: 20%;
     background-color: #ffffff;
     text-align: center;
     overflow: hidden;
-    border: 5px solid #ffffff;
+    border: 3px solid #ffffff;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1)
+}
+
+.team-box .team-funk {    
+    position: relative;
+    align-content: center;
+    width: 200px;
+    height: 200px;    
+}
+
+.team-box .team-funk-1 {    
+    position: relative;
+    align-content: center;
+    width: 120px;
+    height: 200px;    
 }
 
 .team-box h4 {
@@ -668,13 +682,22 @@ input:-webkit-autofill:focus {
     color: #ffffff;
 }
 
-.gallery-slide .owl-stage-outer {
-    background: url('images/mobile-screen.png') no-repeat center right / auto 100%;
 
-}
+@media screen and (min-width: 200px) {        
+    .gallery-slide .owl-stage-outer {
+        background: url('images/mobile-splash-screen.png') no-repeat center / auto 90%;        
+    }
+} 
+
+@media screen and (min-width: 1092px) {       
+    .gallery-slide .owl-stage-outer {
+        background: url('images/mobile-splash-screen.png') no-repeat center right / auto 100%;        
+    }
+} 
+
 
 .gallery-slide .item {
-    margin: 58px 17px 70px 15px;
+    margin: 18px 17px 20px 15px;
     overflow: hidden;
     border-radius: 2px;
 }
@@ -1029,16 +1052,7 @@ input:-webkit-autofill:focus {
 
 /*-- 19. ScrollUp-Button --*/
 
-#scrollUp {
-    right: 0;
-    bottom: 0;
-    height: 60px;
-    width: 60px;
-    text-align: center;
-    line-height: 60px;
-    font-size: 30px;
-    color: #3a78ff;
-}
+
 
 .preloader {
     background-color: #ffffff;
@@ -1066,8 +1080,8 @@ input:-webkit-autofill:focus {
     bottom: 0;
     left: 0;
     text-align: center;
-    color: #ffffff;
-    font-size: 24px;
+    color: #f5f5f5;
+    font-size: 18px;
     margin: auto;
     -webkit-animation: mymove 1.5s infinite linear;
     animation: mymove 1.5s infinite linear;
