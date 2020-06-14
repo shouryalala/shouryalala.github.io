@@ -9,12 +9,12 @@
     });
     /* Scroll to top
     ===================*/
-    $.scrollUp({
-        scrollText: '<i class="lnr lnr-arrow-up"></i>',
-        easingType: 'linear',
-        scrollSpeed: 900,
-        animation: 'fade'
-    });
+    // $.scrollUp({
+    //     scrollText: '<i class="lnr lnr-arrow-up"></i>',
+    //     easingType: 'linear',
+    //     scrollSpeed: 900,
+    //     animation: 'fade'
+    // });
     /* testimonials Slider Active
     =============================*/
     $('.gallery-slide').owlCarousel({
