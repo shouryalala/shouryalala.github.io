@@ -612,16 +612,30 @@ input:-webkit-autofill:focus {
 
 .team-box .team-image {
     position: absolute;
-    top: -40px;
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
+    top: -50px;
+    width: 180px;
+    height: 180px;
+    border-radius: 20%;
     background-color: #ffffff;
     text-align: center;
     overflow: hidden;
-    border: 5px solid #ffffff;
+    border: 3px solid #ffffff;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1)
+}
+
+.team-box .team-funk {    
+    position: relative;
+    align-content: center;
+    width: 200px;
+    height: 200px;    
+}
+
+.team-box .team-funk-1 {    
+    position: relative;
+    align-content: center;
+    width: 120px;
+    height: 200px;    
 }
 
 .team-box h4 {
@@ -671,13 +685,13 @@ input:-webkit-autofill:focus {
 
 @media screen and (min-width: 200px) {        
     .gallery-slide .owl-stage-outer {
-        background: url('images/mobile-temp.png') no-repeat center / auto 90%;        
+        background: url('images/mobile-splash-screen.png') no-repeat center / auto 90%;        
     }
 } 
 
 @media screen and (min-width: 1092px) {       
     .gallery-slide .owl-stage-outer {
-        background: url('images/mobile-temp.png') no-repeat center right / auto 100%;        
+        background: url('images/mobile-splash-screen.png') no-repeat center right / auto 100%;        
     }
 } 
 
